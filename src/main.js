@@ -44,15 +44,6 @@ const pintarArray = (arrayPrint, ele) => {
     return accum + `<div class='card'><textArea class = 'template-posts'cols='40' rows='5' width='70%' name='texto' readOnly maxlength='151'>${elem.text}</textArea> <img src= ${elem.src} class= 'imagen'><div class='btn-edit'><div><img src='imagenes/water-lily.png' class='pencil' id=${indice}></div><div><img src='imagenes/descargar.png' class='pencil ' name='save' id
     =${indice}><img src='imagenes/editar.png' class='pencil' id=${indice} name='edit'><img src='imagenes/borrar.png' class='pencil' id=${indice} name='delete'></div></div></div>`;
   }, '')
-  /* let string = '';
-  arrayPrint.forEach((elem, indice) => {
-    string += `<div class='card'><textArea class = 'template-posts'cols='40' rows='5' width='70%' name='texto' readOnly maxlength='151'>${elem.text}</textArea> <img src= ${elem.src} class= 'imagen'><div class='btn-edit'><div><img src='imagenes/water-lily.png' class='pencil' id=${indice}></div><div><img src='imagenes/descargar.png' class='pencil ' name='save' id
-    =${indice}><img src='imagenes/editar.png' class='pencil' id=${indice} name='edit'><img src='imagenes/borrar.png' class='pencil' id=${indice} name='delete'></div></div></div>`;
-  })
-  for (let indice = 0; indice < arrayPrint.length; indice++) {
-    string += `<div class='card'><textArea class = 'template-posts'cols='40' rows='5' width='70%' name='texto' readOnly maxlength='151'>${arrayPrint[indice].text}</textArea> <img src= ${arrayPrint[indice].src} class= 'imagen'><div class='btn-edit'><div><img src='imagenes/water-lily.png' class='pencil' id=${indice}></div><div><img src='imagenes/descargar.png' class='pencil ' name='save' id
-    =${indice}><img src='imagenes/editar.png' class='pencil' id=${indice} name='edit'><img src='imagenes/borrar.png' class='pencil' id=${indice} name='delete'></div></div></div>`;
-  }*/
   ele.innerHTML = resultado;
 };
 
