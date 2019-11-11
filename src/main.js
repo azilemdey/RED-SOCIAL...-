@@ -1,5 +1,3 @@
-/* eslint-disable no-param-reassign */
-/* eslint-disable no-plusplus */
 const loggin = document.getElementById('loggin');
 const linkregistro = document.getElementById('linkregistro');
 const registro = document.getElementById('registro');
