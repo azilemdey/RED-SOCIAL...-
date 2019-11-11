@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="StyleSheet" href="style.css" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+ <title>Social Network</title>
+</head>
+ 
+<body>
+ <header>
+ 
+   <div class="header">
+     <h1>Muya</h1>
+     <div class="header-right">
+ 
+     </div>
+   </div>
+ </header>
+ <main>
+   <section id="loggin" class="hide" >
+     <p>¡Bienvenidas!</p>
+     <form>
+     <input type="text" placeholder="email" name="email" id="email">
+     <input type="password" placeholder="password" name="password" id="password">
+     <input type="button" name="enter" id="enter" value="Log in">
+    </form>
+    <p>O bien ingresa con...</p>
+    <p>No tienes cuenta?<span id="linkregistro" class="pointer">Regístrate</span></p>
+  </section>
+<section id="registro" class="hide">
+  <form>
+    <input type="text" placeholder="user" name="user" id="user">
+    <input type="text" placeholder="email" name="email" id="email2">
+    <input type="password" placeholder="password" name="password" id="password2">
+    <input type="button" id="register" name="enter"  value="GUARDAR">
+   </form>
+</section>
+  <section id="posts" class="text">
+    <form id="input-text">
+      <p>¿Que quieres compartir?</p>
+      
+        <textarea class="text-area" placeholder="hasta 150 caracteres" cols="40" rows="5" id="post" maxlength="151"></textarea>
+        <input type="file" id="input-file" >
+        <img src="" height="200" id="posting-img"  >
+
+        <input type="button" id="save-text" value="PUBLICAR">
+     
+    </form>
+      <div id="printer-post">
+    </div>
+      
+  </section>
+
+</main>
+
+<footer>
+</footer>
+
+<script src="main.js"></script>
+<script src = "data.js" ></script>
+</body>
+
+</html>
