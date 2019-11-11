@@ -1,3 +1,4 @@
+
 const loggin = document.getElementById('loggin');
 const linkregistro = document.getElementById('linkregistro');
 const registro = document.getElementById('registro');
