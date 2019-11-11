@@ -1,0 +1,135 @@
+.pointer {
+	cursor: pointer;
+}
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+  
+ body {
+    background: #ECF0F1 ;
+  
+ }
+ h1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+ }
+ p {
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+ }
+ /*.box-post {
+  border: solid #D0D3D4;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  size: 30px;
+ }
+ .btn-guardar {
+ display: flex;
+ align-items: flex-end;
+ justify-content: right;
+ margin: 15px;
+  
+ }*/
+ .text-area {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    border: solid #aed86f 1px;
+    /* margin: 20px auto; */
+    margin-top: 30px;
+    resize: none;
+    /* display: flex; */
+    /* justify-content: center; */
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+ }
+ #save-text {
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+    background: linear-gradient(to right, #24CCAA, #A2DB95);
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 10px;
+    cursor: pointer;
+    /* bottom: 0; */
+    /* margin-left: 200px; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* position: absolute; */
+    align-self: flex-end;
+  }
+  .template-posts{
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    border: solid #aed86f 1px;
+    margin: 20px auto;
+    margin-top: 30px;
+    resize: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+ .pencil{  
+    height: 15px;
+    width: 15px;
+}
+#printer-post{
+    display: flex;
+    flex-direction: column;
+}
+.btn-edit {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 3%;
+}
+  
+ .hide{
+ display: none;
+ }
+ /* Style the header with a grey background and some padding */
+
+  
+ .header {
+    overflow: hidden;
+     background: linear-gradient(to right, #24CCAA, #A2DB95);
+     padding: 5px;
+  }
+  .header-left {
+    display: flex;
+    justify-content: center;
+  }
+
+ .imagen{
+   height: 300px;
+   margin:10px auto;
+	display:flex;
+ } 
